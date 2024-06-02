@@ -6,7 +6,8 @@ export function Details(){
     <Container>
       <h1>Hello, World!</h1>
       <span>Lucas Gabryel</span>
-      <Button />
+      <Button title="Entrar"/>
+      <Button title="Saiba mais"/>
     </Container>
   )
 }
