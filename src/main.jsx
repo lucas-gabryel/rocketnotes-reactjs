@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { SignUp } from './pages/SignUp' // problema com o nome deails, letra maiuscula e minuscula
+import { Profile } from './pages/Profile' // problema com o nome deails, letra maiuscula e minuscula
 import GlobalStyle from './styles/global';
 import { ThemeProvider } from 'styled-components';
 
@@ -10,7 +10,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
       <GlobalStyle />
-      <SignUp />
+      <Profile />
     </ThemeProvider>
   </React.StrictMode>
 )
