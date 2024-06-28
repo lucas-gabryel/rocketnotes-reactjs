@@ -23,6 +23,18 @@ export function New(){
 
                     <TextArea placeholder="Observações" />
 
+                    <Section title="Links úteis">
+                        <NoteItem value="https://www.rocketseat.com.br/"/>
+                        <NoteItem placeholder="Nova nota" isNew/>
+                    </Section>
+
+                    <Section title="Marcadores">
+                        <div className="tags">
+                            <NoteItem value="react"/>
+                            <NoteItem placeholder="Nova nota" isNew/>
+                        </div>
+                    </Section>
+                    <Button title="Salvar"/>
                 </Form>
             </main>
         </Container>
